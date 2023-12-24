@@ -15,6 +15,7 @@ djangorestframework = "^3.14.0"
 python-dotenv = "^1.0.0"
 django-extensions = "^3.2.3"
 psycopg = "^3.1.16"
+ipython = "^8.19.0"
 
 [build-system]
 requires = ["poetry-core"]
