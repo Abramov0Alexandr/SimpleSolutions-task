@@ -4,6 +4,9 @@ from test_task.models import Item
 
 
 class ItemSerializer(serializers.ModelSerializer):
+
+    item_id = serializers.IntegerField(source='id', read_only=True)
+
     class Meta:
-        models = Item
-        fields = '__all__'
+        model = Item
+        fields = ('item_id', 'name', 'description', 'price')
