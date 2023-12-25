@@ -16,6 +16,7 @@ python-dotenv = "^1.0.0"
 django-extensions = "^3.2.3"
 psycopg = "^3.1.16"
 ipython = "^8.19.0"
+stripe = "^7.10.0"
 
 [build-system]
 requires = ["poetry-core"]
